@@ -45,22 +45,5 @@ public class String1 {
     		this.str[i]=this.str[count];
     	}
     }
-    public static void main (String [] args) {
-    	String1 s1 = new String1();
-    	s1.append('1');
-    	s1.append('2');
-    	s1.append('3');
-    	s1.append('4');
-    	
-    	String1 s2 = new String1();
-    	s2.append('c');
-    	s2.append('2');
-    	System.out.println(s1.equal(s2));
-    
-    	s1.reverse();
-    	System.out.println(s1.getChar(0));
-    	
-
-    	
-    }
+   
 }
